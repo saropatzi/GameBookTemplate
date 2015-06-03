@@ -1,0 +1,14 @@
+[
+    {
+        "tipo": "noChoice",
+        "title":"No choice 7",
+        "text_left":"No choice 7 text",
+        "text":"No choice 7 text",
+        "leftImage":"images/paragraph/01.jpg",
+        "rightImage":"",
+        "continue_text":"Continue",
+        "continue_page_id":"5",
+        "continue_class":"defaultContinue"
+    }
+
+]

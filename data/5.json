@@ -1,0 +1,35 @@
+
+[
+    {
+    "tipo": "paragrafo",
+    "title":"Paragrafo 5",
+    "text":"Testo del paragrafo 5",
+    "choices":[
+              {
+            "choice_id":"choice01",
+            "icon": "",
+            "title":"Titolo 5",
+            "text":"Scelta dal nuovo<strong>testo</strong> html",
+            "page_id":"5",
+            "feedback_text1": "aaa",
+            "feedback_text2": "feed1",
+            "feedback_image": false,
+            "required_event": "",
+            "activate_event": "",
+            "active_choice": "1"
+        },
+        {
+            "choice_id":"choice02",
+            "title":"Titolo numero 5 da json",
+            "text":"Scelta dal testo html numero 2",
+            "page_id":"8",
+            "feedback_text1": "bbb",
+            "feedback_text2": "feed2",
+            "feedback_image": false,
+            "required_event": "",
+            "activate_event": "",
+            "active_choice": "1"
+        }
+        ]
+    }
+]

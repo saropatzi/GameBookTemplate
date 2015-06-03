@@ -1,0 +1,206 @@
+.createContainer, .templateContainer {
+  position: relative;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  .leftpage {
+    height:100%;
+    .htmltext {
+      height:100%;
+    }
+  }
+  .add_choice {
+    border-radius: 20px;
+    position: absolute;
+    right: -100px;
+    left: auto;
+    top: -20px;
+    width: auto;
+    line-height: 54px;
+    .choice_ico {
+      background: #1777a9;
+      position: relative;
+      float: left;
+      cursor: pointer;
+      &:hover {
+        background: #2999d3;
+      }
+    }
+    .text {
+      position:relative;
+      float: left;
+
+      padding-left: 5px;
+    }
+  }
+}
+.overlay_white {
+  position: fixed;
+  width:100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 30;
+  background: #FFF;
+  @include opacity(0.8);
+  display: none;
+}
+.h100 {
+  height: 100%;
+}
+
+.h78 {
+  height: 78%;
+}
+.createView.page {
+  overflow: visible;
+}
+.topMenu {
+  position: absolute;
+  width: 100%;
+  top: -100px;
+}
+
+form {
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  .titolo {
+    margin: 30px 0;
+    input {
+      width: 100%;
+      font-family: 'Italianno';
+      font-size: 46px;
+      border: solid 1px #efefef;
+      text-align: center;
+    }
+  }
+
+    textarea {
+      font-family: 'IM Fell English';
+      font-size: 20px;
+      width: 100%;
+      border: 1px solid #efefef;
+      resize: vertical;
+      overflow-y: hidden;
+    }
+  .choice_title_container textarea{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .choice_popup {
+    min-width: 20%;
+    max-width: 45%;
+    width: auto;
+    z-index: 35;
+    position: fixed;
+    left: 0;
+    @include transform(translate3d(-200% 0 0));
+    display: none;
+    top: 35%;
+    @include opacity(0);
+    @include transition(all 0.4 ease);
+    text-align: left;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 15px;
+    border: 1px dotted #888;
+    background: #E7E7E7;
+    &.active {
+      display: block;
+      z-index: 20;
+      @include opacity(1);
+      @include transform(translate3d(0 0 0));
+    }
+    .text,.add_image,.eventChoice,.removeChoice {
+      width: 100%;
+      padding: 3px 0;
+    }
+    .add_ico {
+      width: 50px;
+      img {
+        width: 100%;
+      }
+    }
+    .eventChoice {
+       padding-top: 12px;
+    }
+    .eventList {
+      margin-left: 20px;
+    }
+    .remove_ico_ltl {
+      display: inline-block;
+    }
+    .choice_circle_ltl {
+      width:20px;
+      height: 20px;
+      font-size: 20px;
+      line-height: 20px;
+      margin-right: 10px;
+      text-align: center;
+      color: #FFF;
+      border-radius: 10px;
+      background: #1777a9;
+      &.close {
+        background: #141414;
+        position: absolute;
+        font-size: 12px;
+        top:-10px;
+        right: -20px;
+        cursor: pointer;
+      }
+    }
+    .save_choice {
+      padding: 5px;
+      line-height: 20px;
+      color: #FFF;
+      background: #146838;
+      border: 1px solid #FFF;
+      position: absolute;
+      right: -10px;
+      bottom: -10px;
+    }
+  }
+}
+
+#related_paragraphs_container {
+  position: absolute;
+  top: 0;
+  right: -300px;
+  height: 100%;
+  display: table;
+  width: 280px;
+  .related_paragraphs {
+    display: table-cell;
+    vertical-align: middle;
+    width: 280px;
+    .next_paragraph {
+      background: #eaeaea;
+      border: 1px solid #141414;
+      padding: 10px 5px;
+      margin: 10px -10px;
+      &.active, &:hover {
+        margin: 10px 0;
+        background: #fff;
+      }
+      .edit {
+        padding: 5px;
+        margin-top: 5px;
+        background: #1777a9;
+        color: #FFF;
+        font-size: 12px;
+        font-family: Arial;
+      }
+    }
+  }
+  .choice_id {
+    font-size: 30px;
+  }
+  .goto {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+}

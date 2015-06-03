@@ -1,0 +1,39 @@
+
+    <div class="bgImg">
+        <img src="<%= bgimg %>" />
+    </div>
+
+    <div class="title">
+        <h1><%= title %></h1>
+
+        <h3 class="summary">
+            <%= summary %>
+        </h3>
+    </div>
+    <div class="startLoad">
+        <div class="start">
+            <div class="ico"></div>
+            <div class="text">Start</div>
+        </div>
+        <div class="continue">
+            <div class="ico"></div>
+            <div class="text">Continue</div>
+        </div>
+    </div>
+    <div class="insertData">
+        <!--Inserire qui i salvataggi con i rispettivi data
+        (data-saveid, data-lastUpdate, data-lastPage)-->
+        <div class="saveContainer">
+            <% _.each(savedData, function(save){ %>
+            <div class="save  <% if (save.lastUpdate!='' && save.lastUpdate) { %> hasData <%}%>" data-saveid="<%= save.saveid %>" data-lastPage="<%= save.lastPage %>">
+                Save file nr.<%= save.saveid %> <br/>
+                <% if (save.lastUpdate!='' && save.lastUpdate) { %> <%= save.lastUpdate %> <%} else { %> EMPTY <% } %>
+            </div>
+            <% }); %>
+        </div>
+    </div>
+    <div id="continue" data-lastpage="" data-saveid="">
+        Continue
+    </div>
+
+

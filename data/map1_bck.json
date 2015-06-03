@@ -1,0 +1,33 @@
+[
+    {
+	"mapBg":"",
+    "title":"Terre del Sud",
+	"marker":[
+			{
+            "immagine":"",
+			"top":"",
+			"left":"",
+			"zindex":"",
+            "id":"",
+            "goto":""
+			},
+            {
+            "immagine":"",
+            "top":"",
+            "left":"",
+            "zindex":"",
+            "id":"",
+            "goto":""
+            },
+            {
+            "immagine":"",
+            "top":"",
+            "left":"",
+            "zindex":"",
+            "id":"",
+            "goto":""
+            }
+        ]
+    }
+
+]

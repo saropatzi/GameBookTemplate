@@ -1,0 +1,44 @@
+[{
+    "title": "fs",
+    "tipo": "paragrafo",
+    "page_number": "2",
+    "text": "<p>fdsfdsfdsf dsf <strong>dsf </strong></p>",
+    "choices": [
+        {
+            "choice_id": 1,
+            "icon": false,
+            "title": "choice1",
+            "feedback_text1": "<p>feed1</p>",
+            "feedback_text2": "feed1",
+            "feedback_image": "http://localhost/gamebook_wp/wp-content/uploads/2014/10/Large_Haunted_Castle_PNG_Clipart.png",
+            "page_id": "5",
+            "required_event": "start",
+            "activate_event": "",
+            "active_choice": "1"
+        },
+        {
+            "choice_id": 2,
+            "icon": false,
+            "title": "choice2",
+            "feedback_text1": "feed2",
+            "feedback_text2": "feed2",
+            "feedback_image": false,
+            "page_id": "5",
+            "required_event": "",
+            "activate_event": "",
+            "active_choice": "1"
+        },
+        {
+            "choice_id": 3,
+            "icon": false,
+            "title": "choice3",
+            "feedback_text1": "feed3",
+            "feedback_text2": "feed3",
+            "feedback_image": false,
+            "page_id": "5",
+            "required_event": "",
+            "activate_event": "",
+            "active_choice": "1"
+        }
+    ]
+}]

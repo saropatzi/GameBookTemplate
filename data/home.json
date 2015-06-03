@@ -1,0 +1,31 @@
+[
+    {
+        "title":"Sleeping Dragons",
+        "tipo": "home",
+        "summary":"A Ryutama tale",
+        "start":"New Game",
+        "continue":"...write your story",
+        "bgimg":"images/home/homebg.jpg",
+        "firstPage":"#/paragraph/1",
+        "savedData": [
+            {
+                "name":1,
+                "saveid":"",
+                "date":"",
+                "lastPage":"1"
+            },
+            {
+                "name":2,
+                "saveid":"",
+                "date":"",
+                "lastPage":"1"
+            },
+            {
+                "name":3,
+                "saveid":"",
+                "date":"",
+                "lastPage":"1"
+            }
+        ]
+    }
+]

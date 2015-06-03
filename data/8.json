@@ -1,0 +1,60 @@
+[
+    {
+        "id":"",
+        "tipo": "paragrafo",
+        "title":"Titolo numero 8 da json numero 8",
+        "text":"Scelta dal testo html numero 2",
+        "choices":[
+            {
+                "choice_id":"choice01",
+                "icon": "",
+                "title":"Titolo 5",
+                "text":"Scelta dal nuovo<strong>testo</strong> html",
+                "page_id":"5",
+                "feedback_text1": "",
+                "feedback_text2": "feed1",
+                "feedback_image": "data/images/08_01.png",
+                "required_event": "",
+                "activate_event": "",
+                "active_choice": "1"
+            },
+            {
+                "choice_id":"choice02",
+                "title":"Titolo numero 5 da json",
+                "text":"Scelta dal testo html numero 2",
+                "page_id":"8",
+                "feedback_text1": "",
+                "feedback_text2": "feed2",
+                "feedback_image": "data/images/08_02.png",
+                "required_event": "",
+                "activate_event": "",
+                "active_choice": "1"
+            },
+            {
+                "choice_id":"choice03",
+                "title":"Titolo numero 10 da json",
+                "text":"Scelta dal testo html numero 2",
+                "page_id":"10",
+                "feedback_text1": "",
+                "feedback_text2": "feed3",
+                "feedback_image": "data/images/08_03.png",
+                "required_event": "",
+                "activate_event": "",
+                "active_choice": "1"
+            },
+            {
+                "choice_id":"choice04",
+                "title":"Titolo numero 10 da json",
+                "text":"Scelta dal testo html numero 2",
+                "page_id":"10",
+                "feedback_text1": "",
+                "feedback_text2": "feed3",
+                "feedback_image": "data/images/08_03.png",
+                "required_event": "",
+                "activate_event": "",
+                "active_choice": "1"
+            }
+        ]
+    }
+
+]

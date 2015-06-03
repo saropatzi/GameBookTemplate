@@ -1,0 +1,88 @@
+[
+    {
+    "tipo": "paragrafo",
+    "title":"Titolo numero 2 da json numero 8",
+    "text":"Scelta dal testo html numero 2",
+    "choices":[
+              {
+                "choice_id":"choice01",
+                "title":"Titolo da json",
+                "text":"Scelta dal testo html",
+                "page_id":"5",
+                  "feedback": {
+                      "feedid":"feed01",
+                      "text":"feed01",
+                      "image": "",
+                      "imageCoordinates":
+                      {
+                          "top": "",
+                          "left": "",
+                          "right": "",
+                          "bottom":"",
+                          "z-index":""
+                      }
+                  },
+                  "coordinates": {
+                      "top": "",
+                      "left": "",
+                      "right": "",
+                      "bottom":"",
+                      "z-index":""
+                  }
+              },
+              {
+                "choice_id":"choice02",
+                "title":"Titolo numero 2 da json",
+                "text":"Scelta dal testo html numero 2",
+                "page_id":"8",
+                  "feedback": {
+                      "feedid":"feed02",
+                      "text":"feed02",
+                      "image": "",
+                      "imageCoordinates":
+                      {
+                          "top": "",
+                          "left": "",
+                          "right": "",
+                          "bottom":"",
+                          "z-index":""
+                      }
+                  },
+                  "coordinates": {
+                      "top": "",
+                      "left": "",
+                      "right": "",
+                      "bottom":"",
+                      "z-index":""
+                  }
+				},
+			{
+                "choice_id":"choice03",
+                "title":"Titolo numero 2 da json",
+                "text":"Scelta dal testo html numero 2",
+                "page_id":"10",
+                "feedback": {
+                    "feedid":"feed03",
+                    "text":"feed03",
+                    "image": "",
+                    "imageCoordinates":
+                    {
+                        "top": "",
+                        "left": "",
+                        "right": "",
+                        "bottom":"",
+                        "z-index":""
+                    }
+                },
+                "coordinates": {
+                    "top": "",
+                    "left": "",
+                    "right": "",
+                    "bottom":"",
+                    "z-index":""
+                }
+            }
+        ]
+    }
+
+]

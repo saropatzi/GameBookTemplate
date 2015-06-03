@@ -1,0 +1,56 @@
+<div class="leftpage">
+    <% if (typeof title!='undefined' && title != '') { %>
+    <div class="titolo">
+        <h1> <%= title %></h1>
+    </div>
+    <% } %>
+    <% if (typeof text!='undefined' && text != '') { %>
+    <div class="paragraph htmltext">
+        <%= text %>
+    </div>
+    <% } %>
+    <% if (typeof choices!= 'undefined') {  %>
+    <div id="choices">
+        <div class="choice_circle num_choice<%= choices.length %>">
+            <% var i =0;
+            _.each(choices, function(choice){ i++ %>
+                <div class="choice <%= choice.choice_id %>" data-choice-id="<%= choice.choice_id %>" data-href='#/paragraph/<%= choice.page_id %>'>
+                    <a class="choice_ico"><%= i %></a>
+                </div>
+            <div class="choice_title_container <%= choice.choice_id %>">
+                <div class="choice_title"><%= choice.title %></div>
+            </div>
+            <% }); %>
+            <div class="choice_title_container default active">
+                <div class="choice_title">Tap a number to make your choice</div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback_left">
+        <% _.each(choices, function(choice){ %>
+            <div class="feedback <%= choice.choice_id %>">
+                <%= choice.feedback_text1 %>
+            </div>
+        <% }); %>
+    </div>
+    <% } %>
+</div>
+<div class="rightpage">
+    <% if (typeof choices!= 'undefined') {  %>
+    <div id="feedbacks">
+        <% _.each(choices, function(choice){ %>
+        <div class="feedback <%= choice.choice_id %>" >
+            <% if (choice.feedback_image != undefined && choice.feedback_image && choice.feedback_image!='') { %>
+                <div class="feedback_image"><img src ="<%=choice.feedback_image %>" /></div>
+            <% } %>
+            <div class="feedback_text"><%= choice.feedback_text2 %></div>
+        </div>
+        <% }); %>
+    </div>
+    <% } %>
+</div>
+        <!--Manca da gestire il feedback dell'immagine-->
+<div data-next="" id="continue">
+    <div class="ico">&nbsp;</div>
+    <a class="text">Continue</a>
+</div>
